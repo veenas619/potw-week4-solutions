@@ -10,6 +10,10 @@ public:
         else 
         {
         int primes[n+1];  //take index till n
+            /* You can reduce the time complexity by simply creating a vector of integer type and use an iterator to 
+            iterate through the vector. 
+            A vector can be initialised to having n 1s.
+            */
         for(int i=2;i<=n;i++)
         {
             primes[i]=1;
